@@ -4,6 +4,13 @@
     width: 100%;
 }
 
+.rowList {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
 .contentSeparator {
     display: flex;
     justify-content: flex-start;
@@ -11,25 +18,28 @@
 #navList {
     width: 20%;
     background: #3f51b5;
+    padding-bottom: 15px;
 }
 
 #content {
     width: 80%;
     background: #344283;
+    padding-bottom: 15px;
 }
 
 #realContent {
-    width: 80%;
+    width: 90%;
     margin: 15px auto 0;
     padding: 15px 15px 15px 15px;
+    border-radius: 20px;
 }
 
 .PBWrapper {
-    width: 30%;
+    width: 35%;
 }
 
 .donationContent {
-    width: 70%;
+    width: 65%;
 }
 
 .Wrapper {
