@@ -2,7 +2,6 @@ import React from "react";
 import Paper from "@material-ui/core/es/Paper/Paper";
 import UpperNavbar from "./UpperNavbar";
 import LeftMenu from "./LeftMenu";
-import CircularProgressbar from 'react-circular-progressbar';
 import Button from "@material-ui/core/es/Button/Button";
 import GridList from "@material-ui/core/es/GridList/GridList";
 import GridListTile from "@material-ui/core/es/GridListTile/GridListTile";
@@ -29,7 +28,7 @@ class Home extends React.Component{
                             <div className="Wrapper">
                                 <div className="PBWrapper">
                                     <LineChart
-                                        colors={["#cf0a00"]}
+                                        colors={["#e53935"]}
                                         ytitle="K€ donated"
                                         data={{"2018-10-03": 10, "2018-10-10": 16, "2018-10-17": 22, "2018-10-24": 42, "2018-11-03": 57, "2018-11-10": 70, "2018-11-17": 85, "2018-11-24": 100}}
                                     />

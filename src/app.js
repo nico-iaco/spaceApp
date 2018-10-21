@@ -10,15 +10,19 @@ import * as color from "chart.js";
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: '#94a89a', //Change the primary color
+            main: '#dedede', //Change the primary color
         },
 
         secondary: {
-            main: '#cf0a00',
+            main: '#ffffff',
             // dark: will be calculated from palette.secondary.main,
         },
         // error: will use the default color
     },
+    typography: {
+        fontSize:"16px",
+
+    }
 });
 
 

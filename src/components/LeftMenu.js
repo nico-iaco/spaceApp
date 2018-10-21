@@ -13,32 +13,34 @@ class LeftMenu extends React.Component{
 
     render() {
         return(
-            <List >
-                <ListItem button onClick={() => this.redirectTo("/earthquake")}>
-                    <ListItemIcon>
-                        <i className="flaticon-earthquake" ></i>
-                    </ListItemIcon>
-                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Earthquake</Typography>}/>
-                </ListItem>
-                <ListItem button onClick={() => this.redirectTo("/volcano")}>
-                    <ListItemIcon>
-                        <i className="flaticon-volcano" ></i>
-                    </ListItemIcon>
-                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Volcano's eruption</Typography>} />
-                </ListItem>
-                <ListItem button onClick={() => this.redirectTo("/storm")}>
-                    <ListItemIcon>
-                        <i className="flaticon-thunder" ></i>
-                    </ListItemIcon>
-                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Storm</Typography>} />
-                </ListItem>
-                <ListItem button onClick={() => this.redirectTo("/tsunami")}>
-                    <ListItemIcon>
-                        <i className="flaticon-tsunami" ></i>
-                    </ListItemIcon>
-                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Tsunami</Typography>} />
-                </ListItem>
-            </List>
+            <div>
+                <List >
+                    <ListItem button onClick={() => this.redirectTo("/earthquake")}>
+                        <ListItemIcon>
+                            <i className="flaticon-earthquake" ></i>
+                        </ListItemIcon>
+                        <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Earthquake</Typography>}/>
+                    </ListItem>
+                    <ListItem button onClick={() => this.redirectTo("/volcano")}>
+                        <ListItemIcon>
+                            <i className="flaticon-volcano" ></i>
+                        </ListItemIcon>
+                        <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Volcano's eruption</Typography>} />
+                    </ListItem>
+                    <ListItem button onClick={() => this.redirectTo("/storm")}>
+                        <ListItemIcon>
+                            <i className="flaticon-thunder" ></i>
+                        </ListItemIcon>
+                        <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Storm</Typography>} />
+                    </ListItem>
+                    <ListItem button onClick={() => this.redirectTo("/tsunami")}>
+                        <ListItemIcon>
+                            <i className="flaticon-tsunami" ></i>
+                        </ListItemIcon>
+                        <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Tsunami</Typography>} />
+                    </ListItem>
+                </List>
+            </div>
         );
     }
 }
