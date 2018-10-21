@@ -70,8 +70,9 @@ class Home extends React.Component{
 
                             </div>
                             <div>
-                                <br />
-                                <center><Button variant="contained" color="primary">Contribute</Button></center>
+
+                                <br/>
+                                <center><Button id="button" variant="contained" color="primary">Contribute</Button></center>
                             </div>
                         </Paper>
                     </div>
