@@ -24,9 +24,11 @@ class Volcano extends React.Component{
                                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/uZp1dNybgfc" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe></center>
                                 </Carousel>
                                 <p id="textDescription">
-                                    Testo bla bpdmskvnpsvmpsomvpsnvcpznvsiknvs<br/>
-                                    svsrbsnòmvsldjvolfmdbsljdmv sdlòznmv lò.mvlòdsjmvò<br/>
-                                    sdgvsndlòkbvsldngslrsdknbdflmbfdlmbdlbjmlò<br/>
+                                A volcano is a rupture in the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases 
+                                to escape from a magma chamber below the surface. Earth's volcanoes occur because its crust is broken into 17 major, rigid tectonic 
+                                plates that float on a hotter, softer layer in its mantle. Therefore, on Earth, volcanoes are generally found where tectonic plates 
+                                are diverging or converging, and most are found underwater. For example, a mid-oceanic ridge, such as the Mid-Atlantic Ridge,
+                                has volcanoes caused by divergent tectonic plates whereas the Pacific Ring of Fire has volcanoes caused by convergent tectonic plates.
                                     <br/>
                                     <center>
                                         <Button id="button" variant="contained" color="primary" >

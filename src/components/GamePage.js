@@ -53,7 +53,7 @@ class GamePage extends React.Component{
                         <br/>
                         <div id="answerDiv">
                             {
-                                this.state.questions.questions[0].answers.map((e) => <Button variant="contained" color="primary" onClick={() => this.checkAnswer(e)}>{e}</Button> )
+                                this.state.questions.questions[0].answers.map((e) => <Button id="button" variant="contained" color="primary" onClick={() => this.checkAnswer(e)}>{e}</Button> )
                             }
                         </div>
                     </Paper>

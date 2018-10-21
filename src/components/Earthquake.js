@@ -30,9 +30,13 @@ class Earthquake extends React.Component{
                                     <center><img src="https://images-assets.nasa.gov/image/PIA20002/PIA20002~small.jpg" alt="earthquake photo" id="photo" /></center>
                                 </Carousel>
                                 <p id="textDescription">
-                                    Testo bla bpdmskvnpsvmpsomvpsnvcpznvsiknvs<br/>
-                                    svsrbsnòmvsldjvolfmdbsljdmv sdlòznmv lò.mvlòdsjmvò<br/>
-                                    sdgvsndlòkbvsldngslrsdknbdflmbfdlmbdlbjmlò<br/>
+                                An unexpected movement of the Earth's surface is called an earthquake. When two parts of the earth's surface move
+                                suddenly in relation to each other along a fault line, due to tectonic forces, an earthquake occurs.
+                                A tremendous amount of energy is released in the form of tremors and vibrations, such earthquakes are called 'Tectonic Earthquakes'.
+                                The point of origin of an earthquake is called the 'focus', while the point directly above it, on the surface of the earth 
+                                is called the 'epicentre'. Owing to the strong vibrations around the point of origin, the degree of destruction is greater 
+                                around the epicentre. The branch of knowledge that deals with the study of earthquakes is called Seismology, and the experts who study seismic 
+                                waves are called Seismologists.
                                     <br/>
                                     <center>
                                         <Button id="button" variant="contained" color="primary" onClick={this.toGame}>
