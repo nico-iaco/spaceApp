@@ -1,0 +1,48 @@
+{
+    "questions": [
+        {
+            "question": "What is the epicenter of an earthquake?",
+            "category": "earthquake",
+            "answers":[
+                "It is the point on the surface on the vertical of the hypocenter",
+                "It is the depth at which the earthquake occurs",
+                "It is the intensity of the earthquake measured based on the noise that is generated"
+            ],
+            "right_answer": "It is the point on the surface on the vertical of the hypocenter",
+            "description": "The earthquake is a rapid movement of the earth's surface due to the abrupt release of the energy accumulated inside the Earth, in the lithosphere, in an ideal point called hypocenter."
+        },
+        {
+            "question": "Where do earthquakes occur most frequently?",
+            "category": "earthquake",
+            "answers":[
+                "At the poles",
+                "At islands or atolls",
+                "At the edge of tectonic plates (or clods)"
+            ],
+            "right_answer": "At the edge of tectonic plates (or clods)",
+            "description": "The tectonic plates can be compared to rafts that float on the layer immediately below the upper mantle, the asthenosphere."
+        },
+        {
+            "question": "Volcanic ash can cause respiratory damage, even after days of eruption. To remove them from your environment you need:",
+            "category": "volcanoes",
+            "answers":[
+                "Sweep with a broom, wearing the mask and disperse in water or road disposal channels",
+                "Collect the ashes with a broom in special bags to be deposited in identified collection points",
+                "After having wet the surfaces, collect the ashes in a special bag with a broom to lay down in selected collection points"
+            ],
+            "right_answer": "After having wet the surfaces, collect the ashes in a special bag with a broom to lay down in selected collection points",
+            "description": "You must take care to wet the surface beforehand, in order to avoid the lifting and resuspension of the thinner parts, after which do not disperse the ashes along the streets, but collect them in bags to be deposited in the collection points identified by the municipal administration. Ashes can in fact clog water drainage networks, sewage systems and constitute a danger to road traffic"
+        },
+        {
+            "question": "What to do in case of a fall of \"volcanic bombs\"?",
+            "category": "volcanoes",
+            "answers":[
+                "Take refuge at home",
+                "Get away quickly from the area, even by car",
+                "Approaching towards flat areas"
+            ],
+            "right_answer": "Get away quickly from the area, even by car",
+            "description": "It is a highly destructive phenomenon for buildings which, therefore, do not constitute a valid refuge in these cases. Take a look at your municipality's emergency plan and prepare for an evacuation. The preventive removal from the affected area is the only possible form of defense."
+        }
+    ]
+}
