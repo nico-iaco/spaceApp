@@ -3,6 +3,7 @@ import List from "@material-ui/core/es/List/List";
 import ListItem from "@material-ui/core/es/ListItem/ListItem";
 import ListItemIcon from "@material-ui/core/es/ListItemIcon/ListItemIcon";
 import ListItemText from "@material-ui/core/es/ListItemText/ListItemText";
+import Typography from "@material-ui/core/es/Typography/Typography";
 
 class LeftMenu extends React.Component{
 
@@ -17,25 +18,25 @@ class LeftMenu extends React.Component{
                     <ListItemIcon>
                         <i className="flaticon-earthquake" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Earthquakes" />
+                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Earthquake</Typography>}/>
                 </ListItem>
                 <ListItem button onClick={() => this.redirectTo("/volcano")}>
                     <ListItemIcon>
                         <i className="flaticon-volcano" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Volcano's eruptions" />
+                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Volcano's eruption</Typography>} />
                 </ListItem>
                 <ListItem button onClick={() => this.redirectTo("/storm")}>
                     <ListItemIcon>
                         <i className="flaticon-thunder" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Storm" />
+                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Storm</Typography>} />
                 </ListItem>
                 <ListItem button onClick={() => this.redirectTo("/tsunami")}>
                     <ListItemIcon>
                         <i className="flaticon-tsunami" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Tsunami" />
+                    <ListItemText disableTypography primary={<Typography color="secondary" variant="h4" >Tsunami</Typography>} />
                 </ListItem>
             </List>
         );

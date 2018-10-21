@@ -29,12 +29,14 @@ class Home extends React.Component{
                             <div className="Wrapper">
                                 <div className="PBWrapper">
                                     <LineChart
-                                        data={{"2018-10-03": 100, "2018-10-10": 120, "2018-10-17": 150, "2018-10-24": 200}}
+                                        colors={["#cf0a00"]}
+                                        ytitle="K€ donated"
+                                        data={{"2018-10-03": 10, "2018-10-10": 16, "2018-10-17": 22, "2018-10-24": 42, "2018-11-03": 57, "2018-11-10": 70, "2018-11-17": 85, "2018-11-24": 100}}
                                     />
                                 </div>
                                 <div className="donationContent">
                                     <p>
-                                    From the launch of React we've reached the sum of 2.7 Mln€ which will grant a first aid in case of necessity.
+                                    From the launch of React we've reached the sum of 100 K€ which will grant a first aid in case of necessity.
                                     If you want to contribute in some way click the link below and find the perfect way for you.
                                     </p>
                                     <h2>Our partners:</h2>
@@ -68,8 +70,7 @@ class Home extends React.Component{
 
                             </div>
                             <div>
-
-                                <br/>
+                                <br />
                                 <center><Button variant="contained" color="primary">Contribute</Button></center>
                             </div>
                         </Paper>
