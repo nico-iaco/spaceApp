@@ -17,25 +17,25 @@ class LeftMenu extends React.Component{
                     <ListItemIcon>
                         <i className="flaticon-earthquake" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Earthquakes" />
+                    <ListItemText id="textNav" primary="Earthquakes" />
                 </ListItem>
                 <ListItem button onClick={() => this.redirectTo("/volcano")}>
                     <ListItemIcon>
                         <i className="flaticon-volcano" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Volcano's eruptions" />
+                    <ListItemText id="textNav"  primary="Volcano's eruptions" />
                 </ListItem>
                 <ListItem button onClick={() => this.redirectTo("/storm")}>
                     <ListItemIcon>
                         <i className="flaticon-thunder" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Storm" />
+                    <ListItemText id="textNav"  primary="Storm" />
                 </ListItem>
                 <ListItem button onClick={() => this.redirectTo("/tsunami")}>
                     <ListItemIcon>
                         <i className="flaticon-tsunami" ></i>
                     </ListItemIcon>
-                    <ListItemText primary="Tsunami" />
+                    <ListItemText id="textNav"  primary="Tsunami" />
                 </ListItem>
             </List>
         );

@@ -70,7 +70,7 @@ class Home extends React.Component{
                             <div>
 
                                 <br/>
-                                <center><Button variant="contained" color="primary">Contribute</Button></center>
+                                <center><Button id="button" variant="contained" color="primary">Contribute</Button></center>
                             </div>
                         </Paper>
                     </div>

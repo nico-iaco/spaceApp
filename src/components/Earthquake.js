@@ -29,13 +29,13 @@ class Earthquake extends React.Component{
                                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/VSgB1IWr6O4" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe></center>
                                     <center><img src="https://images-assets.nasa.gov/image/PIA20002/PIA20002~small.jpg" alt="earthquake photo" id="photo" /></center>
                                 </Carousel>
-                                <p>
+                                <p id="textDescription">
                                     Testo bla bpdmskvnpsvmpsomvpsnvcpznvsiknvs<br/>
                                     svsrbsnòmvsldjvolfmdbsljdmv sdlòznmv lò.mvlòdsjmvò<br/>
                                     sdgvsndlòkbvsldngslrsdknbdflmbfdlmbdlbjmlò<br/>
                                     <br/>
                                     <center>
-                                        <Button variant="contained" color="primary" onClick={this.toGame}>
+                                        <Button id="button" variant="contained" color="primary" onClick={this.toGame}>
                                             Test your knowledge
                                         </Button>
                                     </center>
