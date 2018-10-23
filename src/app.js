@@ -5,7 +5,6 @@ import './styles/style.scss';
 import AppRouter from "./routers/AppRouter";
 import createMuiTheme from "@material-ui/core/es/styles/createMuiTheme";
 import MuiThemeProvider from "@material-ui/core/es/styles/MuiThemeProvider";
-import * as color from "chart.js";
 
 const theme = createMuiTheme({
     palette: {

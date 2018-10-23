@@ -1,6 +1,6 @@
-<h2>**React**</h2>
+<h2>React</h2>
 <marquee/>
-**Description**
+<h5>Description</h5>
 <p>
 This web app allows user to get informed about natural disaster and how to survive.
 In addition to there is a trivia game for each topic and in future there will be a 
