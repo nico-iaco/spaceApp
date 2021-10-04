@@ -9,7 +9,7 @@ import GridListTileBar from "@material-ui/core/es/GridListTileBar/GridListTileBa
 import ReactChartkick, { LineChart } from 'react-chartkick'
 import Chart from 'chart.js'
 
-ReactChartkick.addAdapter(Chart);
+//ReactChartkick.addAdapter(Chart);
 
 class Home extends React.Component{
 
@@ -27,11 +27,11 @@ class Home extends React.Component{
                             <br />
                             <div className="Wrapper">
                                 <div className="PBWrapper">
-                                    <LineChart
+                                    {/*<LineChart
                                         colors={["#e53935"]}
                                         ytitle="K€ donated"
                                         data={{"2018-10-03": 10, "2018-10-10": 16, "2018-10-17": 22, "2018-10-24": 42, "2018-11-03": 57, "2018-11-10": 70, "2018-11-17": 85, "2018-11-24": 100}}
-                                    />
+                                    />*/}
                                 </div>
                                 <div className="donationContent">
                                     <p>

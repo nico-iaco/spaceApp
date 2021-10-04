@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import 'normalize.css/normalize.css'
 import './styles/style.scss';
 import AppRouter from "./routers/AppRouter";
-import createMuiTheme from "@material-ui/core/es/styles/createMuiTheme";
 import MuiThemeProvider from "@material-ui/core/es/styles/MuiThemeProvider";
+import {createTheme} from "@material-ui/core";
 
-const theme = createMuiTheme({
+const theme = createTheme({
     palette: {
         primary: {
             main: '#dedede', //Change the primary color
